@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Pipeline running"
-      - run: sleep 10
+      - run: sleeep 10
       - run: echo "Pipeline complete"
       - run: echo "Deploying application..."
